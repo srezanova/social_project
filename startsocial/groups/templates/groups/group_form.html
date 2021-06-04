@@ -1,0 +1,12 @@
+{% extends "groups/group_base.html" %} {% load bootstrap4 %}
+<!-- br prettier -->
+{%block group_content %}
+
+<h4>Create New Group!</h4>
+
+<form action="{% url 'groups:create' %}" method="POST" id="groupForm">
+  {% csrf_token %} {% bootstrap_form form %}
+  <input type="submit" class="btn btn-outline-light my-btn" value="Create" />
+</form>
+
+{% endblock group_content %}

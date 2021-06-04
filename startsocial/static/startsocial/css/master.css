@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #0e0b27;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#note {
+  position: absolute;
+  color: rgba(249, 241, 204, 1);
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+  text-align: center;
+  user-select: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mycontent {
+  padding-top: 20px;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-group {
+  background: #0e0b279c !important;
+  color: aliceblue;
+}
+
+.form-group {
+  background-color: #0e0b27;
+  margin: 10px;
+}
+
+textarea {
+  color: rgba(35, 40, 51, 0.37);
+}
